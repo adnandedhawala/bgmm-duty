@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-layout {
+  font-family: "Roboto";
+}
+
+.ant-card {
+  font-family: "Roboto";
+}
+
+.ant-btn {
+  font-family: "Roboto";
+
+  &-primary {
+    background-color: #0d6696;
+
+    &[disabled] {
+      background-color: rgba(68, 68, 68, 0.04);
+    }
+  }
+
+  &-sm {
+    font-size: 14px !important;
+  }
+}
+
+.ant-form {
+  &-item {
+    &-label {
+      padding: 0 !important;
+    }
+  }
+}
+
+.sidebar {
+  .ant-drawer-body {
+    padding: 0;
+  }
+}
+
+// text-editor
+
+.ql-container {
+  font-size: 14px !important;
+  font-family: "Roboto" !important;
+  padding: 0 12px;
+  .ql-editor {
+    padding: 0;
+    ol,
+    ul {
+      padding: 0;
+    }
+  }
+}
+
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  padding: 12px;
+}
+
+.ql-container.ql-bubble.ql-disabled {
+  padding: 0 !important;
+}

@@ -1,0 +1,29 @@
+export const USER_ROLES = {
+  SUPER_ADMIN: "SUPER_ADMIN",
+  ADMIN: "ADMIN",
+  HOD: "HOD",
+  MEMBER: "MEMBER",
+};
+
+export const RISK_PRIORITY = {
+  LOW: "LOW",
+  MEDIUM: "MEDIUM",
+  HIGH: "HIGH",
+};
+
+export const TASK_STATUS = {
+  DRAFT: "DRAFT",
+  IN_PROGRESS: "IN_PROGRESS",
+  IN_REVIEW: "IN_REVIEW",
+  COMPLETED: "COMPLETED",
+  CLOSED: "CLOSED",
+};
+
+export const PAGE_LIST = {
+  DASHBOARD: "DASHBOARD",
+  SETTINGS: "SETTINGS",
+  TASK_LIST: "TASK_LIST",
+  USERS: "USERS",
+  PROFILE: "PROFILE",
+  LOGOUT: "LOGOUT",
+};
